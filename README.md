@@ -1,1 +1,99 @@
-# amlkrishnacu
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    background: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* 16:9 Aspect Ratio for Images */
+  section {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #000;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Waitlist Section - Balanced Spacing */
+  .waitlist {
+    background: #000;
+    padding: 30px 20px; /* Reduced padding for equal gaps */
+    text-align: center;
+    color: white;
+  }
+
+  .waitlist p {
+    font-size: 15px;
+    color: #888;
+    margin: 0 0 20px 0; /* Consistent gap between text and button */
+    line-height: 1.5;
+  }
+
+  .waitlist-btn {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 16px 45px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s transform ease;
+  }
+
+  /* Social & Contact Section */
+  .social {
+    padding: 20px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+  }
+
+  .social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 8px;
+    padding: 14px 25px;
+    border: 1px solid #333; /* Matches all buttons now */
+    border-radius: 30px;
+    width: 240px;
+    text-align: center;
+    transition: 0.3s;
+  }
+</style>
+</head>
+
+<body>
+
+<section><img src="./nw1.jpg"></section>
+<section><img src="./nw2.jpg"></section>
+<section><img src="./nw3.jpg"></section>
+<section><img src="./nw4.jpg"></section>
+
+<div class="waitlist">
+  <p>Be the first to master the move. Join the exclusive waitlist to get notified when we launch.</p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_FDPvk3pTsbbuYQTrEyxS3yAzZv7WYn77OrVmMF66GB2aDg/viewform" class="waitlist-btn">JOIN THE WAITLIST</a>
+</div>
+
+<div class="social">
+  <a href="https://www.instagram.com/amlkrishnacu">Instagram</a>
+  <a href="https://youtube.com/@amlkrishnacu">YouTube</a>
+  <a href="https://wa.me/message/WXOHDIKU4JZXJ1">WhatsApp</a>
+  <a href="mailto:amlkrishnacu@gmail.com">Mail</a>
+</div>
+
+</body>
+</html>
